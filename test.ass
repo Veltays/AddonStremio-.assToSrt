@@ -1,17 +1,511 @@
 [Script Info]
-Title: Test Subtitle
+Title: Français (France)
+ScaledBorderAndShadow: yes
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
 ScriptType: v4.00+
 Collisions: Normal
 PlayResX: 640
-PlayResY: 480
-Timer: 100.0000
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
 
 [V4+ Styles]
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, 
-        ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0002,0002,0025,1
+Style: Italique,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,0002,0002,0025,1
+Style: TiretsDefault,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,1,0020,0002,0025,1
 
 [Events]
-Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.00,0:00:05.00,Default,,0,0,0,,Bonjour, ceci est un test !
-Dialogue: 0,0:00:06.00,0:00:10.00,Default,,0,0,0,,Deuxième ligne de sous-titre.
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:15.87,0:00:17.16,Default,TOKIMITSU,0000,0000,0000,,Bachira.
+Dialogue: 0,0:00:18.20,0:00:19.74,Default,TOKIMITSU,0000,0000,0000,,Ah, euh…
+Dialogue: 0,0:00:19.87,0:00:24.00,Default,TOKIMITSU,0000,0000,0000,,Ce serait sympa si tu pouvais\Nme faire aussi des passes.
+Dialogue: 0,0:00:24.37,0:00:26.88,Default,TOKIMITSU,0000,0000,0000,,Ah, j’en demande trop ?\NDésolé.
+Dialogue: 0,0:00:27.00,0:00:29.46,Default,ARYU,0000,0000,0000,,Si tu dois faire la passe,\Nce sera à moi.
+Dialogue: 0,0:00:30.50,0:00:33.63,Default,ARYU,0000,0000,0000,,Moi, je marquerai avec sty’\Npour nous faire gagner.
+Dialogue: 0,0:00:33.92,0:00:34.88,Default,BACHIRA,0000,0000,0000,,D’ac !
+Dialogue: 0,0:00:35.22,0:00:38.18,Default,RIN,0000,0000,0000,,Hé, dépêchez,\Nqu’on aille vite au niveau suivant.
+Dialogue: 0,0:00:38.60,0:00:39.89,Default,RIN,0000,0000,0000,,On va les massacrer.
+Dialogue: 0,0:00:40.77,0:00:41.89,Default,BACHIRA,0000,0000,0000,,Oui, chef.
+Dialogue: 0,0:00:48.56,0:00:49.77,Italique,BACHIRA/I,0000,0000,0000,,C’est parti…
+Dialogue: 0,0:00:51.69,0:00:54.07,Italique,BACHIRA/I,0000,0000,0000,,On va enfin s’éclater\Nsur la pelouse !
+Dialogue: 0,0:02:26.25,0:02:30.00,Default,Sign,0000,0000,0000,,{\fad(900,1)\fnImpact\fs12.5\bord0\blur2\shad0\3c&HA96510&\c&HFEFFFB&\1a&H0F&\t(24,3738,\fscx120\fscy120\bord2)\move(319.273,139.182,319.273,133.818,25,3738)}ÉPISODE 20
+Dialogue: 0,0:02:26.79,0:02:30.00,Default,Sign,0000,0000,0000,,{\fad(1198,1)\fnImpact\fs25\bord2\blur2\shad0\3c&HFFFFFF&\c&H151710&\1a&H0F&\t(23,3199,\fscx125\fscy125)\move(323.5,253.455,323.5,264,23,3199)}LE SUPER JEU COMBINÉ
+Dialogue: 0,0:02:30.25,0:02:32.46,Default,Sign,0000,0000,0000,,{\fad(650,1)\an9\fnArial\shad0\bord1\blur1.5\3c&HCECD3C&\fs20\pos(585.414,32.461)}TERRAIN DE FOOT DU 4E NIVEAU
+Dialogue: 0,0:02:35.17,0:02:37.63,Default,Sign,0000,0000,0000,,{\fad(276,1)\an9\fnArial\shad0\bord1\blur1.5\3c&HDACE77&\fs20\pos(587.014,10.861)}DEUXIÈME\NSÉLECTION
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(320.145,101.6)}BACHIRA
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(390.036,132.8)}ARYÛ
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(251.782,133.6)}TOKIMITSU
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(320,165.818)}RIN
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(251.636,196.945)}NAGI
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(295.345,227.5)}ISAGI
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(349.164,227.5)}BARÔ
+Dialogue: 0,0:02:35.25,0:02:37.63,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&HFDFDFF&\3c&HFCA12A&\pos(390.109,196.945)}CHIGIRI
+Dialogue: 0,0:02:35.59,0:02:37.63,Default,Sign,0000,0000,0000,,{\fad(732,1)\an7\fnArial\shad0\bord1\blur1.5\3c&HDACE77&\fs20\pos(51.814,40.461)}BATAILLE\NDE RIVALITÉ\N« 4 VS 4 »
+Dialogue: 0,0:02:39.05,0:02:40.26,Default,TOKIMITSU,0000,0000,0000,,Aryû ?
+Dialogue: 0,0:02:41.72,0:02:44.18,Default,ARYU,0000,0000,0000,,Tu utilises quoi,\Ncomme après-shampoing ?
+Dialogue: 0,0:02:45.85,0:02:48.93,Default,CHIGIRI,0000,0000,0000,,Celui de base\Nqui est à disposition aux bains.
+Dialogue: 0,0:02:49.06,0:02:51.69,Default,ARYU,0000,0000,0000,,Les pointes de tes cheveux\Nsont vraiment sty’.
+Dialogue: 0,0:02:51.85,0:02:55.02,Default,ARYU,0000,0000,0000,,J’imagine que tu es sty’\Nde naissance, hein ?
+Dialogue: 0,0:02:56.53,0:02:58.19,Default,CHIGIRI,0000,0000,0000,,Pas touche à mes cheveux.
+Dialogue: 0,0:02:58.32,0:03:00.95,Default,ARYU,0000,0000,0000,,Ils sont si beaux,\Nc’était plus fort que moi.
+Dialogue: 0,0:03:01.07,0:03:03.57,Default,ARYU,0000,0000,0000,,Tout ce qui est sty’\Na raison de moi.
+Dialogue: 0,0:03:04.24,0:03:07.12,Default,ARYU,0000,0000,0000,,C’est un honneur\Nd’affronter un joueur aussi sty’.
+Dialogue: 0,0:03:07.29,0:03:09.62,Default,ARYU,0000,0000,0000,,Enchanté, Hyôma Chigiri.
+Dialogue: 0,0:03:10.29,0:03:11.46,Italique,CHIGIRI/I,0000,0000,0000,,Il est géant.
+Dialogue: 0,0:03:11.79,0:03:14.25,Italique,CHIGIRI/I,0000,0000,0000,,C’est donc lui\Nque je dois marquer ?
+Dialogue: 0,0:03:16.59,0:03:19.72,Default,CHIGIRI,0000,0000,0000,,Ton prénom ancien\Ncolle pas trop à ton image.
+Dialogue: 0,0:03:19.92,0:03:22.55,Default,CHIGIRI,0000,0000,0000,,Enchanté, Jûbei Aryû.
+Dialogue: 0,0:03:23.26,0:03:24.39,Default,ARYU,0000,0000,0000,,N’en dis pas plus !
+Dialogue: 0,0:03:24.51,0:03:28.47,Default,ARYU,0000,0000,0000,,Mon prénom n’a pas\Nla moindre touche sty’ !
+Dialogue: 0,0:03:28.85,0:03:32.81,Default,ARYU,0000,0000,0000,,On dirait un vieux nom démodé\Nd’un général du Japon médiéval.
+Dialogue: 0,0:03:34.23,0:03:36.40,Default,ARYU,0000,0000,0000,,C’est la seule chose\Nqui me complexe.
+Dialogue: 0,0:03:36.52,0:03:40.28,Default,ARYU,0000,0000,0000,,Je vais changer ta première impression\Navec cette pose sty’ !
+Dialogue: 0,0:03:40.40,0:03:43.99,Default,,0000,0000,0000,,Aryû ! Arrête de bouger,\Ntu vas te fatiguer !
+Dialogue: 0,0:03:44.16,0:03:47.87,Default,,0000,0000,0000,,Euh, Isagi…\NT’es sûr que ces gars sont balèzes ?
+Dialogue: 0,0:03:47.99,0:03:50.70,Default,,0000,0000,0000,,Ouais, côté foot,\Nils se débrouillent bien.
+Dialogue: 0,0:03:50.91,0:03:52.21,Default,,0000,0000,0000,,Fermez-la, bordel !
+Dialogue: 0,0:03:52.62,0:03:56.29,Default,BAROU,0000,0000,0000,,Mettez-vous vite en position !\NLa partie commence.
+Dialogue: 0,0:03:57.17,0:03:58.50,Default,TOKIMITSU,0000,0000,0000,,Désolé !
+Dialogue: 0,0:03:58.80,0:04:02.34,Default,TOKIMITSU,0000,0000,0000,,Euh, vous voulez pas\Nremettre ça à une autre fois ?
+Dialogue: 0,0:04:03.13,0:04:06.68,Default,TOKIMITSU,0000,0000,0000,,Aryû est pas en état de jouer.\NMieux vaut qu’on soit à 100 %…
+Dialogue: 0,0:04:06.80,0:04:07.89,Default,BAROU,0000,0000,0000,,Pas question.
+Dialogue: 0,0:04:08.06,0:04:09.81,Default,BAROU,0000,0000,0000,,Va te placer, ou je te bute.
+Dialogue: 0,0:04:11.81,0:04:13.64,Default,TOKIMITSU,0000,0000,0000,,C’est foutu, on va perdre…
+Dialogue: 0,0:04:13.77,0:04:16.56,Default,TOKIMITSU,0000,0000,0000,,Les gars intimidants comme lui\Ncontrôlent le monde.
+Dialogue: 0,0:04:16.69,0:04:21.28,Default,TOKIMITSU,0000,0000,0000,,C’est leur confiance qui leur permet\Nde se réjouir de leurs succès !
+Dialogue: 0,0:04:21.40,0:04:23.15,Default,TOKIMITSU,0000,0000,0000,,Eux, ils souffrent pas.
+Dialogue: 0,0:04:23.28,0:04:26.66,Default,TOKIMITSU,0000,0000,0000,,Ils savourent leur réussite\Nsans connaître l’échec !
+Dialogue: 0,0:04:27.28,0:04:29.87,Default,BAROU,0000,0000,0000,,Isagi ! On change de formation.
+Dialogue: 0,0:04:30.66,0:04:34.21,Default,BAROU,0000,0000,0000,,Je me charge de marquer\Ncet enfoiré de pessimiste.
+Dialogue: 0,0:04:35.12,0:04:37.46,Default,BAROU,0000,0000,0000,,Tu crois que j’ai jamais\Nconnu l’échec ?
+Dialogue: 0,0:04:38.34,0:04:42.05,Default,TOKIMITSU,0000,0000,0000,,Au secours ! Il fait flipper !
+Dialogue: 0,0:04:44.84,0:04:45.97,Italique,BAROU/I,0000,0000,0000,,Il bouge pas…
+Dialogue: 0,0:04:46.59,0:04:49.14,Italique,BAROU/I,0000,0000,0000,,Ce dégonflé\Na une puissance surhumaine ?
+Dialogue: 0,0:04:49.60,0:04:50.47,Default,ISAGI,0000,0000,0000,,OK !
+Dialogue: 0,0:04:50.60,0:04:54.12,Default,ISAGI,0000,0000,0000,,Du coup,\Ntu veux échanger avec Barô…
+Dialogue: 0,0:04:54.48,0:04:55.52,Default,ISAGI,0000,0000,0000,,Nagi ?
+Dialogue: 0,0:04:58.81,0:04:59.98,Default,NAGI,0000,0000,0000,,Désolé, Isagi.
+Dialogue: 0,0:05:00.36,0:05:01.98,Default,NAGI,0000,0000,0000,,Je peux changer aussi ?
+Dialogue: 0,0:05:03.61,0:05:05.78,Default,NAGI,0000,0000,0000,,Je dois faire le choix\Nle plus excitant,
+Dialogue: 0,0:05:05.95,0:05:08.16,Default,NAGI,0000,0000,0000,,ou j’aurai abandonné Reo\Npour rien.
+Dialogue: 0,0:05:09.99,0:05:12.92,Default,NAGI,0000,0000,0000,,L’envie me démange\Nde me frotter au nº 1.
+Dialogue: 0,0:05:15.21,0:05:17.25,Default,NAGI,0000,0000,0000,,{\pos(310.4,335)}Je veux devenir plus fort.
+Dialogue: 0,0:05:20.67,0:05:21.80,Default,ISAGI,0000,0000,0000,,OK.
+Dialogue: 0,0:05:22.00,0:05:25.72,Default,ISAGI,0000,0000,0000,,Mais s’il t’écrase,\Nje lui réglerai son compte moi-même.
+Dialogue: 0,0:05:26.18,0:05:29.51,Italique,ISAGI/I,0000,0000,0000,,C’est moi qui dévorerai\Nle jeu de tous les joueurs !
+Dialogue: 0,0:05:30.14,0:05:31.51,Default,ISAGI,0000,0000,0000,,En résumé…
+Dialogue: 0,0:05:32.93,0:05:34.39,Default,ISAGI,0000,0000,0000,,je m’occuperai de toi.
+Dialogue: 0,0:05:43.73,0:05:45.42,Italique,ISAGI/I,0000,0000,0000,,Je miserai tout ce que j’ai.
+Dialogue: 0,0:05:46.45,0:05:48.58,Italique,BACHIRA/I,0000,0000,0000,,Je me battrai\Navec tout ce que j’ai.
+Dialogue: 0,0:05:49.53,0:05:50.66,Italique,ISAGI/BACHIRA/I,0000,0000,0000,,Celui qui gagnera…
+Dialogue: 0,0:05:52.37,0:05:53.24,Italique,ISAGI/BACHIRA/I,0000,0000,0000,,c’est moi !
+Dialogue: 0,0:05:55.20,0:05:57.41,Italique,BACHIRA/I,0000,0000,0000,,Bon ! C’est parti, Isagi.
+Dialogue: 0,0:05:57.54,0:05:58.67,Italique,BACHIRA/I,0000,0000,0000,,Je commence…
+Dialogue: 0,0:05:59.25,0:06:01.38,Italique,ISAGI,0000,0000,0000,,Un passement de jambes\Nsuper rapide ?
+Dialogue: 0,0:06:01.84,0:06:03.09,Italique,BACHIRA/I,0000,0000,0000,,Essaie de la prendre !
+Dialogue: 0,0:06:03.34,0:06:05.34,Italique,BACHIRA/I,0000,0000,0000,,Ensuite, une feinte de corps…
+Dialogue: 0,0:06:05.88,0:06:07.05,Italique,BACHIRA/I,0000,0000,0000,,et je pars à gauche !
+Dialogue: 0,0:06:07.22,0:06:11.05,Italique,BACHIRA/I,0000,0000,0000,,Tiens ? Normalement,\Nça devrait suffire pour dribler Isagi.
+Dialogue: 0,0:06:11.18,0:06:13.18,Italique,BACHIRA/I,0000,0000,0000,,Bizarre… Il m’a cramé ?
+Dialogue: 0,0:06:14.13,0:06:17.39,Italique,BACHIRA/I,0000,0000,0000,,Il se place en prenant en compte\Nla position des autres !
+Dialogue: 0,0:06:17.68,0:06:20.10,Italique,BACHIRA/I,0000,0000,0000,,Au lieu de se contenter\Nde me marquer,
+Dialogue: 0,0:06:20.23,0:06:23.48,Italique,BACHIRA/I,0000,0000,0000,,il défend aussi le côté\Nqui les mettrait en difficulté.
+Dialogue: 0,0:06:23.82,0:06:25.53,Italique,BACHIRA/I,0000,0000,0000,,Vu que Nagi est derrière,
+Dialogue: 0,0:06:25.65,0:06:28.36,Italique,BACHIRA/I,0000,0000,0000,,il pourra me rattraper\Ns’il est à la traîne.
+Dialogue: 0,0:06:28.49,0:06:32.16,Italique,BACHIRA/I,0000,0000,0000,,Mais si je passe ici,\Nj’aurai direct une occasion de but.
+Dialogue: 0,0:06:32.45,0:06:36.70,Italique,BACHIRA/I,0000,0000,0000,,Ça, Isagi l’a bien compris,\Net c’est pour ça qu’il me marque.
+Dialogue: 0,0:06:36.95,0:06:40.42,Italique,BACHIRA/I,0000,0000,0000,,Son analyse du jeu\Nest bien plus rapide qu’avant !
+Dialogue: 0,0:06:40.54,0:06:43.29,Default,ISAGI,0000,0000,0000,,Tu dors ou quoi, Bachira ?\NEssaie de me dribler.
+Dialogue: 0,0:06:43.63,0:06:46.30,Italique,BACHIRA/I,0000,0000,0000,,Sa perception du jeu a évolué !
+Dialogue: 0,0:06:46.46,0:06:47.76,Italique,BACHIRA/I,0000,0000,0000,,Raison de plus…
+Dialogue: 0,0:06:48.13,0:06:50.22,Italique,BACHIRA/I,0000,0000,0000,,pour tenter de passer à l’intérieur !
+Dialogue: 0,0:06:50.76,0:06:51.97,Default,BAROU,0000,0000,0000,,Je m’en doutais.
+Dialogue: 0,0:06:52.47,0:06:54.56,Default,BAROU,0000,0000,0000,,Donne-moi ça, le nain à la frange !
+Dialogue: 0,0:06:55.35,0:06:56.18,Italique,BACHIRA/I,0000,0000,0000,,Barô ?
+Dialogue: 0,0:06:56.43,0:06:59.64,Italique,BACHIRA/I,0000,0000,0000,,Il a deviné mon jeu\Net est venu me coincer avec Isagi ?
+Dialogue: 0,0:06:59.77,0:07:01.98,Default,TOKIMITSU,0000,0000,0000,,Envoie en retrait, Bachira !
+Dialogue: 0,0:07:02.35,0:07:03.48,Italique,BACHIRA/I,0000,0000,0000,,Pas le choix !
+Dialogue: 0,0:07:09.45,0:07:10.99,TiretsDefault,,0279,0000,0000,,– Bordel !\N– Merci.
+Dialogue: 0,0:07:11.28,0:07:12.32,Default,BAROU,0000,0000,0000,,Dégage de là !
+Dialogue: 0,0:07:13.99,0:07:15.49,Italique,BACHIRA/I,0000,0000,0000,,Je comprends pas, là.
+Dialogue: 0,0:07:15.62,0:07:18.45,Italique,BACHIRA/I,0000,0000,0000,,Ils se sont pas placés\Npour jouer ensemble ?
+Dialogue: 0,0:07:18.87,0:07:20.82,Italique,BACHIRA/I,0000,0000,0000,,Ils essaient de récupérer la balle
+Dialogue: 0,0:07:20.93,0:07:23.46,Italique,BACHIRA/I,0000,0000,0000,,en utilisant leurs équipiers\Ncomme appâts.
+Dialogue: 0,0:07:23.96,0:07:26.80,Italique,BACHIRA/I,0000,0000,0000,,C’est tout l’inverse\Nd’un jeu combiné !
+Dialogue: 0,0:07:26.92,0:07:29.30,Default,BACHIRA/I,0000,0000,0000,,Impossible à deviner\Nau premier coup d’œil.
+Dialogue: 0,0:07:30.92,0:07:33.76,TiretsDefault,NAGI/ISAGI,0207,0000,0000,,– Envoie une passe lobée.\N– C’est prévu, juste ici.
+Dialogue: 0,0:07:34.49,0:07:36.39,Italique,NAGI/I,0000,0000,0000,,Belle passe de l’extérieur du pied !
+Dialogue: 0,0:07:36.56,0:07:37.18,Italique,NAGI/I,0000,0000,0000,,Tiens ?
+Dialogue: 0,0:07:37.72,0:07:39.68,Italique,NAGI/I,0000,0000,0000,,Il se doute que je vais l’amortir,
+Dialogue: 0,0:07:39.89,0:07:42.14,Italique,NAGI/I,0000,0000,0000,,alors il évite de se jeter sur moi.
+Dialogue: 0,0:07:42.48,0:07:44.10,Italique,NAGI/I,0000,0000,0000,,Il garde la bonne distance…
+Dialogue: 0,0:07:44.23,0:07:45.98,Italique,NAGI/I,0000,0000,0000,,Ça va pas être de la tarte.
+Dialogue: 0,0:07:46.23,0:07:49.36,Italique,NAGI/I,0000,0000,0000,,Même si je lève la balle\Nsans ralentir ma course,
+Dialogue: 0,0:07:49.61,0:07:52.15,Italique,NAGI/I,0000,0000,0000,,j’ai pas l’espace pour le déposer.
+Dialogue: 0,0:07:52.49,0:07:56.33,Italique,NAGI/I,0000,0000,0000,,Et si jamais je m’arrête,\Nil viendra direct au contact.
+Dialogue: 0,0:07:56.49,0:07:58.45,Italique,NAGI/I,0000,0000,0000,,Il est à la distance parfaite.
+Dialogue: 0,0:07:58.99,0:08:02.71,Italique,NAGI/I,0000,0000,0000,,Il lui a suffi d’un match\Npour en apprendre autant sur moi ?
+Dialogue: 0,0:08:02.83,0:08:03.92,Italique,NAGI/I,0000,0000,0000,,Rin Itoshi…
+Dialogue: 0,0:08:04.08,0:08:05.83,Italique,NAGI/I,0000,0000,0000,,T’es un vrai petit génie.
+Dialogue: 0,0:08:05.96,0:08:08.63,Italique,NAGI/I,0000,0000,0000,,Maintenant,\Nje vais devoir improviser…
+Dialogue: 0,0:08:09.96,0:08:12.47,Italique,NAGI,0000,0000,0000,,Je t’ai senti venir.\NT’es ma seule solution…
+Dialogue: 0,0:08:12.58,0:08:13.63,Italique,NAGI,0000,0000,0000,,la panthère rouge !
+Dialogue: 0,0:08:13.76,0:08:15.72,Default,CHIGIRI,0000,0000,0000,,Parfait. Je percerai leur défense !
+Dialogue: 0,0:08:15.97,0:08:17.93,Default,ARYU,0000,0000,0000,,Elle est bien sty’, ta passe.
+Dialogue: 0,0:08:18.10,0:08:21.48,Italique,CHIGIRI/I,0000,0000,0000,,Vu la distance entre Aryû et Rin,\Navec ma vitesse max…
+Dialogue: 0,0:08:21.68,0:08:25.40,Italique,CHIGIRI/I,0000,0000,0000,,je devrais pouvoir m’en sortir\Nà la toute dernière seconde !
+Dialogue: 0,0:08:25.85,0:08:27.48,Italique,CHIGIRI/I,0000,0000,0000,,C’est à ce point exact
+Dialogue: 0,0:08:27.65,0:08:29.44,Italique,CHIGIRI/I,0000,0000,0000,,que je pourrai passer !
+Dialogue: 0,0:08:32.28,0:08:34.11,Default,BACHIRA,0000,0000,0000,,Je suis bluffé, là…
+Dialogue: 0,0:08:34.74,0:08:36.87,Italique,BACHIRA/I,0000,0000,0000,,Grâce à leur double jeu perso,
+Dialogue: 0,0:08:36.99,0:08:38.49,Italique,BACHIRA/I,0000,0000,0000,,ils ont chopé la balle.
+Dialogue: 0,0:08:38.62,0:08:43.37,Italique,BACHIRA/I,0000,0000,0000,,Après, en seulement un instant,\NIsagi et Nagi ont eu la même idée.
+Dialogue: 0,0:08:43.62,0:08:48.29,Italique,BACHIRA/I,0000,0000,0000,,Ce dernier a répondu avec une passe\Npartie d’un superbe amorti du pied.
+Dialogue: 0,0:08:48.46,0:08:50.17,Italique,BACHIRA/I,0000,0000,0000,,Puis, cerise sur la gâteau,
+Dialogue: 0,0:08:50.59,0:08:51.92,Italique,BACHIRA/I,0000,0000,0000,,la percée de Chigiri !
+Dialogue: 0,0:08:52.26,0:08:55.59,Italique,BACHIRA/I,0000,0000,0000,,C’est le cocktail explosif\Nqu’ils ont concocté pour gagner.
+Dialogue: 0,0:08:55.59,0:08:56.59,Default,SIGN,0000,0000,0000,,{\fad(230,140)\fnImpact\shad0\fsp1\bord1\fscx85\blur0.3\fs18\3c&H34161B&\frz353.5\pos(292.437,111.709)}YOICHI\NISAGI
+Dialogue: 0,0:08:55.59,0:08:56.59,Default,SIGN,0000,0000,0000,,{\fad(230,140)\fnImpact\shad0\fsp1\bord1\fscx85\blur0.3\fs18\3c&H34161B&\frz353.5\pos(357.818,164.073)}SHÔEI\NBARÔ
+Dialogue: 0,0:08:56.34,0:08:58.14,Italique,BACHIRA/I,0000,0000,0000,,Le jeu est grave coordonné !
+Dialogue: 0,0:08:56.47,0:08:58.30,Default,SIGN,0000,0000,0000,,{\fad(230,1)\fnImpact\shad0\fsp1\bord1\fscx85\blur0.3\fs18\3c&H34161B&\frz354.2\pos(304.946,44)}YOICHI\NISAGI
+Dialogue: 0,0:08:56.47,0:08:58.30,Default,SIGN,0000,0000,0000,,{\fad(230,1)\fnImpact\shad0\fsp1\bord1\fscx85\blur0.3\fs18\3c&H34161B&\frz353.8\pos(356.873,204.728)}SHÔEI\NBARÔ
+Dialogue: 0,0:08:56.47,0:08:58.30,Default,SIGN,0000,0000,0000,,{\fad(230,1)\fnImpact\shad0\fsp1\bord1\fscx85\blur0.3\fs18\3c&H34161B&\frz354.2\pos(373.963,38.4)}SEISHIRÔ\NNAGI
+Dialogue: 0,0:08:56.47,0:08:58.30,Default,SIGN,0000,0000,0000,,{\fad(230,1)\fnImpact\shad0\fsp1\bord1\fscx85\blur0.3\fs18\3c&H34161B&\frz354.2\pos(279.782,195.127)}HYÔMA\NCHIGIRI
+Dialogue: 0,0:08:59.01,0:09:01.68,Italique,BACHIRA/I,0000,0000,0000,,Leur équipe est à la hauteur\Nde la nôtre !
+Dialogue: 0,0:09:04.48,0:09:06.48,TiretsDefault,CHIGIRI/NAGI,0220,0000,0000,,– Ouais !\N– Bien joué, Princesse.
+Dialogue: 0,0:09:06.60,0:09:07.69,Default,ISAGI,0000,0000,0000,,Tu gères !
+Dialogue: 0,0:09:08.94,0:09:11.36,Default,BACHIRA,0000,0000,0000,,Je vous attendais,\Nles individualistes !
+Dialogue: 0,0:09:13.15,0:09:15.28,Default,BACHIRA,0000,0000,0000,,Le monstre en moi\Nfrétille de joie !
+Dialogue: 0,0:09:18.95,0:09:21.41,Italique,ISAGI/I,0000,0000,0000,,Rin se trouve à 35 m des cages.
+Dialogue: 0,0:09:21.74,0:09:24.96,Italique,ISAGI/I,0000,0000,0000,,Même lui aura du mal\Nà marquer d’entrée de jeu.
+Dialogue: 0,0:09:25.29,0:09:26.33,Italique,ISAGI/I,0000,0000,0000,,Mais bon…
+Dialogue: 0,0:09:26.58,0:09:29.50,Default,TOKIMITSU,0000,0000,0000,,C’est moi,\Nou ils sont plus forts qu’avant ?
+Dialogue: 0,0:09:29.63,0:09:32.17,Default,ARYU,0000,0000,0000,,Je sens le sty’ en moi bouillonner.
+Dialogue: 0,0:09:32.63,0:09:36.13,Italique,ISAGI/I,0000,0000,0000,,Le top 3 se laissera pas faire\Ncomme ça !
+Dialogue: 0,0:09:36.59,0:09:40.05,Italique,ISAGI/I,0000,0000,0000,,On va enchaîner,\Nsans leur laisser le temps de souffler.
+Dialogue: 0,0:09:40.22,0:09:41.22,Italique,ISAGI/I,0000,0000,0000,,Cette fois…
+Dialogue: 0,0:09:42.35,0:09:44.06,Italique,ISAGI/I,0000,0000,0000,,on est les challengers !
+Dialogue: 0,0:09:44.47,0:09:47.64,Default,BACHIRA,0000,0000,0000,,À nous deux, Isagi.\NTu me surprendras plus !
+Dialogue: 0,0:09:48.35,0:09:51.65,Italique,ISAGI/I,0000,0000,0000,,Il drible vers l’avant\Ntout en gardant un œil sur Barô.
+Dialogue: 0,0:09:51.86,0:09:55.28,Italique,ISAGI/I,0000,0000,0000,,Je pourrai pas piquer la balle à Bachira\Nen plein mouvement,
+Dialogue: 0,0:09:56.24,0:09:58.45,Italique,ISAGI/I,0000,0000,0000,,Aryû se lance sur l’aile ?
+Dialogue: 0,0:09:58.86,0:10:00.32,Italique,ISAGI/I,0000,0000,0000,,Bah, ça change rien.
+Dialogue: 0,0:10:00.45,0:10:04.04,Italique,ISAGI/I,0000,0000,0000,,Nagi est en défense\Net Chigiri marque Aryû de près.
+Dialogue: 0,0:10:04.24,0:10:08.12,Italique,ISAGI/I,0000,0000,0000,,Le pire, c’est que je perde le duel.\NSinon, on s’en sortira.
+Dialogue: 0,0:10:08.25,0:10:09.42,Default,BAROU,0000,0000,0000,,Hé, le nain !
+Dialogue: 0,0:10:10.38,0:10:11.71,Italique,ISAGI/I,0000,0000,0000,,Il s’est arrêté !
+Dialogue: 0,0:10:11.84,0:10:14.21,Italique,ISAGI/I,0000,0000,0000,,Bien vu, Barô.\NJe vais lui chourer !
+Dialogue: 0,0:10:15.26,0:10:16.76,Italique,ISAGI/I,0000,0000,0000,,Une passe aveugle ?
+Dialogue: 0,0:10:17.88,0:10:19.09,Default,TOKIMITSU,0000,0000,0000,,Pour toi, Aryû !
+Dialogue: 0,0:10:19.22,0:10:21.39,Default,BAROU,0000,0000,0000,,Fonce ! Chope-la, Princesse !
+Dialogue: 0,0:10:23.18,0:10:25.27,Default,CHIGIRI,0000,0000,0000,,C’est quoi, cette portée abusée ?
+Dialogue: 0,0:10:25.39,0:10:29.02,Default,ARYU,0000,0000,0000,,Petit rigolo.\NLes passes à mi-hauteur m’appartiennent.
+Dialogue: 0,0:10:29.14,0:10:31.69,Default,ARYU,0000,0000,0000,,Maintenant,\Navant que tu me rattrapes,
+Dialogue: 0,0:10:31.77,0:10:32.86,Default,ARYU,0000,0000,0000,,j’envoie la balle.
+Dialogue: 0,0:10:32.98,0:10:35.32,Default,TOKIMITU,0000,0000,0000,,Elle arrive !\NIl m’a fait la passe !
+Dialogue: 0,0:10:35.61,0:10:37.94,Default,BAROU,0000,0000,0000,,C’est pour moi,\Ngros tas de muscles !
+Dialogue: 0,0:10:38.82,0:10:40.57,Default,TOKIMITSU,0000,0000,0000,,C’est le gorille psychopathe !
+Dialogue: 0,0:10:40.70,0:10:41.95,Default,BAROU,0000,0000,0000,,Tu me cherches ?
+Dialogue: 0,0:10:43.58,0:10:46.70,Italique,BAROU/I,0000,0000,0000,,Il est costaud…\NJ’arrive même pas à le bouger !
+Dialogue: 0,0:10:46.79,0:10:48.21,Default,TOKIMITSU,0000,0000,0000,,Pas touche !
+Dialogue: 0,0:10:48.33,0:10:49.79,Italique,BAROU/I,0000,0000,0000,,Il a des muscles en acier ?
+Dialogue: 0,0:10:49.96,0:10:50.75,Default,TOKIMITSU,0000,0000,0000,,Tiens !
+Dialogue: 0,0:10:51.00,0:10:52.79,Italique,BAROU/I,0000,0000,0000,,En une touche de balle ? À qui ?
+Dialogue: 0,0:10:54.75,0:10:55.59,Italique,CHIGIRI,0000,0000,0000,,Oh non !
+Dialogue: 0,0:10:55.75,0:10:57.17,Italique,ISAGI/I,0000,0000,0000,,Rin se trouve pile
+Dialogue: 0,0:10:57.51,0:10:58.84,Italique,ISAGI/I,0000,0000,0000,,dans sa zone de tir !
+Dialogue: 0,0:10:59.55,0:11:01.05,Default,NAGI,0000,0000,0000,,Ça ira, je suis là.
+Dialogue: 0,0:11:01.51,0:11:03.22,TiretsDefault,NAGI/ISAGI,0244,0000,0000,,– Je le bloquerai.\N– Nagi !
+Dialogue: 0,0:11:04.26,0:11:05.76,Default,NAGI,0000,0000,0000,,Il veut quand même tirer ?
+Dialogue: 0,0:11:06.10,0:11:09.85,Italique,ISAGI/I,0000,0000,0000,,Nagi a vu clair dans son jeu.\NRin a quasi pas d’espace pour tirer.
+Dialogue: 0,0:11:10.02,0:11:12.10,Italique,ISAGI/I,0000,0000,0000,,Quoique, c’est l’occasion parfaite
+Dialogue: 0,0:11:12.98,0:11:14.52,Italique,ISAGI/I,0000,0000,0000,,pour une feinte de frappe !
+Dialogue: 0,0:11:15.15,0:11:17.03,Italique,ISAGI/I,0000,0000,0000,,Rin a fait exprès d’attirer Nagi.
+Dialogue: 0,0:11:17.15,0:11:19.19,Italique,ISAGI/I,0000,0000,0000,,Il a un coup d’avance !
+Dialogue: 0,0:11:19.53,0:11:21.15,Italique,ISAGI/I,0000,0000,0000,,Mais il a perdu du temps,
+Dialogue: 0,0:11:21.82,0:11:23.12,Italique,ISAGI/I,0000,0000,0000,,je vais l’arrêter !
+Dialogue: 0,0:11:23.24,0:11:25.62,Default,CHIGIRI,0000,0000,0000,,Bien vu, Isagi !\NOn le coince à deux !
+Dialogue: 0,0:11:25.74,0:11:26.79,Default,ISAGI,0000,0000,0000,,Tu gères, Chigiri.
+Dialogue: 0,0:11:26.91,0:11:28.45,Italique,ISAGI/I,0000,0000,0000,,On est à deux contre un.
+Dialogue: 0,0:11:30.12,0:11:31.21,Italique,ISAGI/I,0000,0000,0000,,Bachira ?
+Dialogue: 0,0:11:31.33,0:11:32.79,Italique,ISAGI/I,0000,0000,0000,,Ça craint, ils sont deux !
+Dialogue: 0,0:11:32.92,0:11:34.71,Italique,ISAGI/I,0000,0000,0000,,Il va la passer ou dribler ?
+Dialogue: 0,0:11:36.09,0:11:38.09,Default,CHIGIRI,0000,0000,0000,,Il va tirer juste entre nous ?
+Dialogue: 0,0:11:38.21,0:11:40.51,TiretsDefault,CHIGIRI/ISAGI,0226,0000,0000,,– Il est gourmand !\N– {\i1}Non, tu te trompes.{\i0}
+Dialogue: 0,0:11:40.85,0:11:42.22,Italique,ISAGI/I,0000,0000,0000,,C’est une autre feinte !
+Dialogue: 0,0:11:42.84,0:11:44.68,Italique,ISAGI/I,0000,0000,0000,,À l’arrivée de Bachira,
+Dialogue: 0,0:11:44.80,0:11:47.72,Italique,ISAGI/I,0000,0000,0000,,Rin nous a pas laissé\Nle temps de réfléchir.
+Dialogue: 0,0:11:48.64,0:11:49.52,Italique,ISAGI/I,0000,0000,0000,,C’est mort…
+Dialogue: 0,0:11:49.64,0:11:53.19,Italique,ISAGI/I,0000,0000,0000,,On suit tous à la lettre\Nle scénario qu’il a imaginé !
+Dialogue: 0,0:11:54.06,0:11:55.94,Italique,ISAGI/I,0000,0000,0000,,Tir, drible,
+Dialogue: 0,0:11:56.06,0:11:58.40,Italique,ISAGI/I,0000,0000,0000,,prise de décision, analyse…
+Dialogue: 0,0:11:58.78,0:12:00.99,Italique,ISAGI/I,0000,0000,0000,,Même sans cocktail explosif,
+Dialogue: 0,0:12:01.32,0:12:03.53,Italique,ISAGI/I,0000,0000,0000,,Rin est un véritable monstre
+Dialogue: 0,0:12:03.66,0:12:06.53,Italique,ISAGI/I,0000,0000,0000,,capable de créer\Nun nombre infini d’occasions !
+Dialogue: 0,0:12:07.41,0:12:08.95,Italique,ISAGI/I,0000,0000,0000,,Il est hors du commun !
+Dialogue: 0,0:12:09.08,0:12:10.12,Default,ISAGI/I,0000,0000,0000,,Bordel !
+Dialogue: 0,0:12:11.04,0:12:13.58,Default,RIN,0000,0000,0000,,On dirait que tu as au moins appris
+Dialogue: 0,0:12:13.96,0:12:15.79,Default,RIN,0000,0000,0000,,à utiliser tes yeux en jouant.
+Dialogue: 0,0:12:17.46,0:12:19.88,Default,RIN,0000,0000,0000,,Mais c’est pas\Nton vieux style de jeu
+Dialogue: 0,0:12:20.90,0:12:23.01,Default,RIN,0000,0000,0000,,qui allumera une étincelle en moi.
+Dialogue: 0,0:12:28.64,0:12:32.35,Default,NAGI,0000,0000,0000,,Sérieux…\NComment on est censés l’arrêter ?
+Dialogue: 0,0:12:33.48,0:12:34.44,Italique,ISAGI/I,0000,0000,0000,,C’est jouable.
+Dialogue: 0,0:12:34.73,0:12:37.56,Italique,ISAGI/I,0000,0000,0000,,J’ai pas pu le stopper,\Nmais je me rapproche de lui.
+Dialogue: 0,0:12:38.27,0:12:41.94,Italique,ISAGI/I,0000,0000,0000,,Au précédent match,\Nj’ignorais comment j’avais perdu,
+Dialogue: 0,0:12:42.36,0:12:46.70,Italique,ISAGI/I,0000,0000,0000,,mais maintenant,\Nson jeu n’a plus de secrets pour moi.
+Dialogue: 0,0:12:48.49,0:12:51.16,Italique,ISAGI/I,0000,0000,0000,,Si je le dévore,\Non pourra l’emporter !
+Dialogue: 0,0:13:02.01,0:13:03.17,Italique,ISAGI,0000,0000,0000,,Réfléchis.
+Dialogue: 0,0:13:03.42,0:13:07.09,Italique,ISAGI,0000,0000,0000,,Trouve un moyen de le battre\Net de contrôler le jeu.
+Dialogue: 0,0:13:08.72,0:13:10.18,Default,TOKIMITSU,0000,0000,0000,,Joli but !
+Dialogue: 0,0:13:10.43,0:13:14.06,Default,ARYU,0000,0000,0000,,Je reconnais que ta reprise de volée\Nétait bien sty’.
+Dialogue: 0,0:13:14.39,0:13:17.94,Default,CHIGIRI,0000,0000,0000,,Je suis choqué…\NRin est plus chaud que je pensais.
+Dialogue: 0,0:13:18.06,0:13:21.11,Default,NAGI,0000,0000,0000,,Désolé, j’ai pas réussi à l’arrêter.
+Dialogue: 0,0:13:21.48,0:13:24.07,Default,NAGI,0000,0000,0000,,Je me demande\Noù il va chercher ces idées.
+Dialogue: 0,0:13:24.15,0:13:26.49,Default,NAGI,0000,0000,0000,,Il doit pas réfléchir comme nous.
+Dialogue: 0,0:13:27.03,0:13:29.95,Default,ISAGI,0000,0000,0000,,Attends, je vais t’expliquer\Nce qui s’est passé.
+Dialogue: 0,0:13:30.24,0:13:31.45,Default,ISAGI,0000,0000,0000,,Au tout début,
+Dialogue: 0,0:13:32.20,0:13:36.41,Default,ISAGI,0000,0000,0000,,Rin s’est positionné dans sa zone de tir\Npour recevoir le ballon.
+Dialogue: 0,0:13:36.83,0:13:41.71,Default,ISAGI,0000,0000,0000,,C’est pourquoi on avait constamment\Nun train de retard comparé à lui.
+Dialogue: 0,0:13:42.34,0:13:45.09,Default,ISAGI,0000,0000,0000,,Et vu qu’il a toujours\Nquelques coups d’avance,
+Dialogue: 0,0:13:45.42,0:13:48.34,Default,ISAGI,0000,0000,0000,,il nous empêche de réfléchir\Net nous pousse à agir.
+Dialogue: 0,0:13:49.05,0:13:52.18,Default,ISAGI,0000,0000,0000,,Ça fait partie\Nde ses caractéristiques de base.
+Dialogue: 0,0:13:52.60,0:13:56.06,Default,NAGI,0000,0000,0000,,Ça craint…\NJ’espère que mon cerveau suivra.
+Dialogue: 0,0:13:56.18,0:13:58.85,Default,CHIGIRI,0000,0000,0000,,Faut voir. Et puis d’ailleurs, Isagi…
+Dialogue: 0,0:13:59.48,0:14:02.27,Default,CHIGIRI,0000,0000,0000,,tu dois aussi avoir\Nde sacrées caractéristiques
+Dialogue: 0,0:14:02.40,0:14:04.36,Default,CHIGIRI,0000,0000,0000,,pour expliquer le jeu de Rin.
+Dialogue: 0,0:14:05.78,0:14:07.07,Italique,ISAGI/I,0000,0000,0000,,Je vois…
+Dialogue: 0,0:14:07.95,0:14:10.16,Default,ISAGI/I,0000,0000,0000,,Je suis le seul à pouvoir suivre
+Dialogue: 0,0:14:10.32,0:14:12.58,Default,ISAGI/I,0000,0000,0000,,la méthode de réflexion de Rin.
+Dialogue: 0,0:14:12.99,0:14:15.70,Default,ISAGI/I,0000,0000,0000,,Dans ce cas,\Nla seule façon de l’arrêter,
+Dialogue: 0,0:14:16.16,0:14:18.33,Default,ISAGI/I,0000,0000,0000,,c’est d’utiliser ma vision du jeu !
+Dialogue: 0,0:14:20.25,0:14:22.75,Default,BAROU,0000,0000,0000,,Y a que 1-1 !\NOn va les fumer, les gars !
+Dialogue: 0,0:14:22.88,0:14:24.84,Default,CHIGIRI,0000,0000,0000,,Ouais, notre stratégie fonctionne.
+Dialogue: 0,0:14:24.96,0:14:26.01,Default,NAGI,0000,0000,0000,,À notre tour…
+Dialogue: 0,0:14:26.46,0:14:27.22,Default,NAGI,0000,0000,0000,,d’attaquer !
+Dialogue: 0,0:14:27.97,0:14:28.97,Default,CHIGIRI,0000,0000,0000,,OK !
+Dialogue: 0,0:14:31.26,0:14:34.68,Italique,ISAGI/I,0000,0000,0000,,Face à Aryû et sa portée,\Nc’est un drible ou une passe !
+Dialogue: 0,0:14:34.85,0:14:35.64,Italique,ISAGI/I,0000,0000,0000,,Le problème,
+Dialogue: 0,0:14:35.89,0:14:40.19,Italique,ISAGI/I,0000,0000,0000,,c’est que Rin est positionné\Npour répondre au choix de Chigiri.
+Dialogue: 0,0:14:40.52,0:14:41.61,Italique,ISAGI/I,0000,0000,0000,,Mais ça veut dire
+Dialogue: 0,0:14:41.90,0:14:43.23,Italique,ISAGI/I,0000,0000,0000,,que Nagi est démarqué !
+Dialogue: 0,0:14:43.57,0:14:46.44,Italique,ISAGI/I,0000,0000,0000,,Bachira pourra pas\Ndéfendre contre nous deux !
+Dialogue: 0,0:14:47.61,0:14:50.36,Italique,ISAGI/I,0000,0000,0000,,Au moment où toute l’attention\Nsera sur Nagi,
+Dialogue: 0,0:14:50.82,0:14:53.37,Italique,ISAGI/I,0000,0000,0000,,je me glisserai derrière\Nsans être vu !
+Dialogue: 0,0:14:53.53,0:14:55.45,Italique,ISAGI/I,0000,0000,0000,,Remarque-moi, Chigiri.\NEnvoie !
+Dialogue: 0,0:14:57.54,0:14:58.96,Italique,ISAGI/I,0000,0000,0000,,Bien joué, c’est parfait…
+Dialogue: 0,0:15:00.96,0:15:02.63,Italique,ISAGI/I,0000,0000,0000,,Il est sérieux, ce mec ?
+Dialogue: 0,0:15:02.92,0:15:05.84,Italique,ISAGI/I,0000,0000,0000,,Il a complètement prédit\Nmon jeu sans la balle !
+Dialogue: 0,0:15:06.74,0:15:07.51,Italique,ISAGI/I,0000,0000,0000,,Bordel !
+Dialogue: 0,0:15:07.96,0:15:10.43,Italique,ISAGI/I,0000,0000,0000,,Mes mouvements\Nentrent dans ses estimations ?
+Dialogue: 0,0:15:10.55,0:15:13.72,Italique,ISAGI/I,0000,0000,0000,,On devrait avoir la même vision du jeu,\Net pourtant…
+Dialogue: 0,0:15:14.43,0:15:18.85,Italique,ISAGI/I,0000,0000,0000,,il a toujours un coup d’avance sur moi,\Nquoi que je fasse !
+Dialogue: 0,0:15:19.77,0:15:20.81,Default,NAGI,0000,0000,0000,,Tu passeras pas.
+Dialogue: 0,0:15:21.06,0:15:22.81,Default,BAROU,0000,0000,0000,,Arrête de te la jouer, gamin.
+Dialogue: 0,0:15:23.98,0:15:26.57,Default,BACHIRA,0000,0000,0000,,Eh bah !\NC’est rare que tu passes la balle.
+Dialogue: 0,0:15:26.78,0:15:28.94,Default,RIN,0000,0000,0000,,Cours avec le ballon\Njusqu’aux cages.
+Dialogue: 0,0:15:29.15,0:15:30.65,Default,BACHIRA,0000,0000,0000,,À vos ordres, chef !
+Dialogue: 0,0:15:30.78,0:15:32.49,Default,ISAGI,0000,0000,0000,,Revenez, ils vont attaquer !
+Dialogue: 0,0:15:32.61,0:15:34.16,TiretsDefault,BAROU/NAGI,0267,0000,0000,,– Tss…\N– Fait chier.
+Dialogue: 0,0:15:34.45,0:15:36.20,Italique,BACHIRA,0000,0000,0000,,Tu m’impressionnes, Isagi.
+Dialogue: 0,0:15:36.37,0:15:39.70,Italique,BACHIRA,0000,0000,0000,,T’as vraiment évolué\Nau point de rivaliser avec Rin.
+Dialogue: 0,0:15:40.37,0:15:43.42,Italique,BACHIRA,0000,0000,0000,,C’est pas cool.\NLaissez-moi m’amuser avec vous.
+Dialogue: 0,0:15:43.96,0:15:45.25,Italique,BACHIRA/I,0000,0000,0000,,Tu me forces…
+Dialogue: 0,0:15:46.84,0:15:47.56,Italique,BACHIRA,0000,0000,0000,,{\i1}Shock{\i0} !
+Dialogue: 0,0:15:47.70,0:15:49.88,Italique,BACHIRA/I,0000,0000,0000,,… à improviser encore plus !
+Dialogue: 0,0:15:50.05,0:15:51.05,Italique,ISAGI/I,0000,0000,0000,,Une frappe ?
+Dialogue: 0,0:15:51.30,0:15:52.05,Italique,ISAGI/I,0000,0000,0000,,Non…
+Dialogue: 0,0:15:52.88,0:15:54.51,Italique,ISAGI/I,0000,0000,0000,,Il tourne dans l’autre sens ?
+Dialogue: 0,0:15:54.70,0:15:58.06,Italique,ISAGI/I,0000,0000,0000,,C’est une longue passe\Nqui part du sol à l’horizontale !
+Dialogue: 0,0:15:58.39,0:16:00.81,Italique,ISAGI/I,0000,0000,0000,,Seulement,\Nla passe trouvera pas Rin…
+Dialogue: 0,0:16:01.23,0:16:02.52,Italique,ISAGI/I,0000,0000,0000,,Le destinataire,
+Dialogue: 0,0:16:03.35,0:16:04.40,Italique,ISAGI/I,0000,0000,0000,,c’est Aryû !
+Dialogue: 0,0:16:04.85,0:16:08.82,Default,ARYU,0000,0000,0000,,Elle tourne superbement à la verticale.\NC’est magnifique.
+Dialogue: 0,0:16:08.93,0:16:09.71,Italique,ISAGI/I,0000,0000,0000,,T’emballe pas.
+Dialogue: 0,0:16:10.15,0:16:12.15,Italique,ISAGI/I,0000,0000,0000,,Chigiri va te rattraper !
+Dialogue: 0,0:16:12.32,0:16:14.24,Default,CHIGIRI,0000,0000,0000,,Je vais te démolir, M. Sty’.
+Dialogue: 0,0:16:14.78,0:16:17.12,Default,NAGI,0000,0000,0000,,Vous m’avez oublié ou quoi ?
+Dialogue: 0,0:16:17.24,0:16:18.99,Italique,ISAGI,0000,0000,0000,,Nagi est revenu en défense.
+Dialogue: 0,0:16:19.33,0:16:20.12,Italique,ISAGI,0000,0000,0000,,Ça aide.
+Dialogue: 0,0:16:20.54,0:16:22.41,Italique,ISAGI/I,0000,0000,0000,,Nagi est aussi grand qu’Aryû,
+Dialogue: 0,0:16:22.54,0:16:25.96,Italique,ISAGI/I,0000,0000,0000,,et Chigiri atteindra\Nle point de chute en premier.
+Dialogue: 0,0:16:26.08,0:16:27.75,Italique,ISAGI/I,0000,0000,0000,,On interceptera cette passe !
+Dialogue: 0,0:16:27.92,0:16:29.67,Default,BACHIRA,0000,0000,0000,,Ouvre bien les yeux, M. Sty’.
+Dialogue: 0,0:16:29.88,0:16:31.26,Default,BACHIRA,0000,0000,0000,,Le plus important,
+Dialogue: 0,0:16:31.63,0:16:34.26,Default,BACHIRA,0000,0000,0000,,c’est la trajectoire,\Net pas la chute.
+Dialogue: 0,0:16:35.34,0:16:36.22,Italique,ARYU/I,0000,0000,0000,,Je vois.
+Dialogue: 0,0:16:36.76,0:16:38.35,Italique,ARYU/I,0000,0000,0000,,Ils récupéreront la balle
+Dialogue: 0,0:16:38.47,0:16:42.02,Italique,ARYU/I,0000,0000,0000,,si j’attends qu’elle touche le sol\Nau bout de sa courbe.
+Dialogue: 0,0:16:42.27,0:16:44.14,Italique,ARYU/I,0000,0000,0000,,Il n’y a donc qu’une option.
+Dialogue: 0,0:16:44.35,0:16:46.77,Italique,ARYU/I,0000,0000,0000,,Je dois intervenir\Nau milieu de la courbe.
+Dialogue: 0,0:16:46.94,0:16:49.40,Italique,ARYU/I,0000,0000,0000,,Moi seul peux avoir la balle…
+Dialogue: 0,0:16:50.15,0:16:51.90,Italique,ARYU/I,0000,0000,0000,,au point de sa redescente !
+Dialogue: 0,0:16:52.03,0:16:54.11,TiretsDefault,CHIGIRI/NAGI,0261,0000,0000,,– Il a sauté !\N– J’hallucine.
+Dialogue: 0,0:16:54.53,0:16:56.45,Default,ARYU,0000,0000,0000,,Ma joie me porte en l’air !
+Dialogue: 0,0:16:56.78,0:17:00.08,Italique,ISAGI/I,0000,0000,0000,,Ça craint…\NLeur cocktail explosif envoie du lourd !
+Dialogue: 0,0:17:00.20,0:17:02.54,Italique,ISAGI/I,0000,0000,0000,,Les gars du top 3\Nqui jouaient trop perso
+Dialogue: 0,0:17:02.66,0:17:04.54,Italique,ISAGI/I,0000,0000,0000,,ont développé un jeu d’équipe !
+Dialogue: 0,0:17:08.63,0:17:11.21,Italique,ISAGI/I,0000,0000,0000,,Je pensais gagner en stoppant Rin,
+Dialogue: 0,0:17:11.34,0:17:14.51,Italique,ISAGI/I,0000,0000,0000,,mais avec les impros de Bachira,\Nle match évolue !
+Dialogue: 0,0:17:18.39,0:17:20.39,Default,ARYU,0000,0000,0000,,Je te remercie, Meguru Bachira.
+Dialogue: 0,0:17:20.89,0:17:22.39,Default,ARYU,0000,0000,0000,,Grâce à cette passe,
+Dialogue: 0,0:17:22.72,0:17:26.27,Default,ARYU,0000,0000,0000,,moi, j’ai pu découvrir\Nune nouvelle voie sty’.
+Dialogue: 0,0:17:26.44,0:17:27.44,Default,BACHIRA,0000,0000,0000,,C’était cadeau.
+Dialogue: 0,0:17:28.40,0:17:31.23,Italique,ISAGI,0000,0000,0000,,Voilà à quoi ressemble\Nle tout dernier match.
+Dialogue: 0,0:17:31.36,0:17:33.19,Italique,ISAGI,0000,0000,0000,,C’est de la folie !
+Dialogue: 0,0:17:34.19,0:17:36.36,Italique,NAGI/I,0000,0000,0000,,Ce match est dément !
+Dialogue: 0,0:17:36.74,0:17:39.12,Italique,NAGI/I,0000,0000,0000,,Isagi et Rin\Nse rendent coup pour coup
+Dialogue: 0,0:17:39.24,0:17:41.62,Italique,NAGI/I,0000,0000,0000,,pour récupérer\Nle contrôle du terrain.
+Dialogue: 0,0:17:41.87,0:17:45.75,Italique,NAGI/I,0000,0000,0000,,En plus, Rin à lui seul\Ndonne du mal à toute notre équipe.
+Dialogue: 0,0:17:46.12,0:17:47.79,Italique,NAGI/I,0000,0000,0000,,L’idée doit venir de lui.
+Dialogue: 0,0:17:48.00,0:17:51.09,Italique,NAGI/I,0000,0000,0000,,Il fait un cocktail explosif\Navec le top 3 !
+Dialogue: 0,0:17:52.13,0:17:53.00,Default,RIN,0000,0000,0000,,Trop nul.
+Dialogue: 0,0:17:53.21,0:17:54.61,Default,ARYU,0000,0000,0000,,J’ai stoppé l’hémorragie.
+Dialogue: 0,0:17:55.55,0:17:56.59,Default,TOKIMITSU,0000,0000,0000,,On a l’avantage.
+Dialogue: 0,0:17:57.84,0:18:01.26,Italique,NAGI/I,0000,0000,0000,,Ces gars jouent comme une équipe,\Nmaintenant.
+Dialogue: 0,0:18:01.89,0:18:04.31,Italique,NAGI/I,0000,0000,0000,,Y a pas à dire, ils sont balèzes.
+Dialogue: 0,0:18:05.04,0:18:07.52,Italique,NAGI/I,0000,0000,0000,,Ah… et voilà…
+Dialogue: 0,0:18:08.52,0:18:10.36,Italique,NAGI/I,0000,0000,0000,,je veux les défoncer.
+Dialogue: 0,0:18:12.23,0:18:14.78,Italique,NAGI/I,0000,0000,0000,,Si je brûle de passion comme ça,
+Dialogue: 0,0:18:15.65,0:18:19.16,Italique,NAGI/I,0000,0000,0000,,c’est parce que Reo\Nm’a demandé de jouer avec lui.
+Dialogue: 0,0:18:21.07,0:18:23.37,Italique,NAGI/I,0000,0000,0000,,Dis, Reo, entre nous…
+Dialogue: 0,0:18:23.66,0:18:26.25,Italique,NAGI/I,0000,0000,0000,,t’as peut-être raison, finalement.
+Dialogue: 0,0:18:28.25,0:18:30.71,Italique,NAGI/I,0000,0000,0000,,Après être venu ici,\Nj’ai joué des matchs,
+Dialogue: 0,0:18:30.88,0:18:32.59,Italique,NAGI/I,0000,0000,0000,,j’ai connu la défaite
+Dialogue: 0,0:18:33.04,0:18:34.75,Italique,NAGI/I,0000,0000,0000,,et j’ai fini par changer.
+Dialogue: 0,0:18:35.38,0:18:38.47,Italique,NAGI/I,0000,0000,0000,,Mais tu sais,\Nje veux devenir encore plus fort.
+Dialogue: 0,0:18:40.18,0:18:41.34,Italique,NAGI/I,0000,0000,0000,,Désolé, Reo.
+Dialogue: 0,0:18:42.72,0:18:44.47,Italique,NAGI/I,0000,0000,0000,,Je t’ai faussé compagnie…
+Dialogue: 0,0:18:44.68,0:18:48.18,TiretsDefault,ISAGI/NAGI/I,0192,0000,0000,,– Prépare-toi, Nagi.\N– {\i1}… j’ai changé petit à petit…{\i0}
+Dialogue: 0,0:18:48.60,0:18:50.65,Default,ISAGI,0000,0000,0000,,On va leur mettre une branlée !
+Dialogue: 0,0:18:50.81,0:18:53.36,Italique,NAGI/I,0000,0000,0000,,… et j’ai fini par jouer avec Isagi…
+Dialogue: 0,0:18:54.15,0:18:54.90,Default,NAGI,0000,0000,0000,,Ouais.
+Dialogue: 0,0:18:56.28,0:18:58.90,Italique,NAGI/I,0000,0000,0000,,… mais ne m’en veux pas\Npour autant.
+Dialogue: 0,0:19:00.36,0:19:02.24,Default,CHIGIRI,0000,0000,0000,,Je te driblerai à chaque fois !
+Dialogue: 0,0:19:02.37,0:19:04.16,Default,ARYU,0000,0000,0000,,Et tu te heurteras à moi.
+Dialogue: 0,0:19:04.28,0:19:05.33,Default,BAROU,0000,0000,0000,,Hé, Chigiri !
+Dialogue: 0,0:19:05.44,0:19:07.58,TiretsDefault,BAROU/TOKIMITSU,0252,0000,0000,,– Fais la passe !\N– Non, arrête !
+Dialogue: 0,0:19:07.70,0:19:08.87,Default,BAROU,0000,0000,0000,,Lâche-moi !
+Dialogue: 0,0:19:11.62,0:19:15.13,Italique,NAGI/I,0000,0000,0000,,Isagi se démarque toujours\Npour recevoir des passes.
+Dialogue: 0,0:19:15.59,0:19:18.80,Italique,NAGI/I,0000,0000,0000,,Il se sert de Barô,\Nvu qu’il est toujours près de Chigiri,
+Dialogue: 0,0:19:18.92,0:19:22.34,Italique,NAGI/I,0000,0000,0000,,et cherche à placer une reprise\Nlà où Rin ne l’attend pas.
+Dialogue: 0,0:19:22.80,0:19:24.64,Italique,NAGI/I,0000,0000,0000,,Mais ça, l’autre l’a compris.
+Dialogue: 0,0:19:25.47,0:19:29.43,Italique,NAGI/I,0000,0000,0000,,Honnêtement, je sais pas jusqu’où va\Nleur perception du jeu,
+Dialogue: 0,0:19:29.81,0:19:33.90,Italique,NAGI/I,0000,0000,0000,,mais ils possèdent sans doute\Nle même champ de vision.
+Dialogue: 1,0:19:34.31,0:19:36.65,Italique,NAGI/I,0000,0000,0000,,Si Isagi arrive pas\Nà prendre le dessus,
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&H5D5D5D&\3c&H915C37&\pos(200.727,8.727)\t(1778,2361,\alpha&H80&)}PERCEPTION DE L’ESPACE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\pos(200.727,8.727)\t(1778,2361,\alpha&H80&)}PERCEPTION DE L’ESPACE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(328.727,133.818)}PERCEPTION DE L’ESPACE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(328.727,133.818)}PERCEPTION DE L’ESPACE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(280,62.545)}DÉTENTE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(280,62.545)}DÉTENTE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(408.727,189.091)}DÉTENTE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(408.727,189.091)}DÉTENTE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(246.545,165.818)}AGILITÉ
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(246.545,165.818)}AGILITÉ
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(375.273,288.727)}AGILITÉ
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(375.273,288.727)}AGILITÉ
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(150.545,164.364)}PHYSIQUE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(150.545,164.364)}PHYSIQUE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(279.273,288)}PHYSIQUE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(279.273,288)}PHYSIQUE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(119.273,63.273)}VITESSE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(119.273,63.273)}VITESSE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur2\bord1.5\shad0\b1\fs10\c&&H5D5D5D&&\3c&H915C37&\t(1778,2361,\alpha&H80&)\pos(246.545,188.364)}VITESSE
+Dialogue: 0,0:19:36.19,0:19:42.82,Default,SIGN,0000,0000,0000,,{\fad(250,1)\an8\blur0.3\bord0\shad0\b1\fs10\c&HF4FEF4&\t(1778,2361,\alpha&H80&)\pos(246.545,188.364)}VITESSE
+Dialogue: 0,0:19:36.98,0:19:38.82,Italique,NAGI/I,0000,0000,0000,,c’est à cause de son physique.
+Dialogue: 0,0:19:39.44,0:19:42.45,Italique,NAGI/I,0000,0000,0000,,{\pos(320,344.6)}C’est pourquoi Isagi\Nperd toujours au dernier moment.
+Dialogue: 0,0:19:42.82,0:19:44.53,Italique,NAGI/I,0000,0000,0000,,Il me suffit donc de devenir
+Dialogue: 0,0:19:44.78,0:19:46.49,Italique,NAGI/I,0000,0000,0000,,la dernière pièce du puzzle !
+Dialogue: 0,0:19:47.70,0:19:49.04,Italique,NAGI/I,0000,0000,0000,,Isagi, Rin.
+Dialogue: 0,0:19:49.25,0:19:52.54,Italique,NAGI/I,0000,0000,0000,,Le futur du terrain\Nque vous dessinez sur la pelouse,
+Dialogue: 0,0:19:53.37,0:19:55.08,Italique,NAGI/I,0000,0000,0000,,je le détruirai de mes mains !
+Dialogue: 0,0:19:57.88,0:19:59.59,Italique,NAGI/I,0000,0000,0000,,Essayez d’intervenir !
+Dialogue: 0,0:20:00.01,0:20:03.34,Italique,NAGI/I,0000,0000,0000,,Je suis pas aussi prévisible\Nque vous l’imaginez !
+Dialogue: 0,0:20:03.76,0:20:04.39,Default,CHIGIRI,0000,0000,0000,,Nagi !
+Dialogue: 0,0:20:06.60,0:20:09.39,Italique,NAGI/I,0000,0000,0000,,Il a réagi super vite !\NIl est déjà sur moi.
+Dialogue: 0,0:20:10.02,0:20:11.47,Italique,NAGI/I,0000,0000,0000,,Alors je la laisse passer.
+Dialogue: 0,0:20:11.60,0:20:14.31,Italique,NAGI/I,0000,0000,0000,,Vite, Isagi.\NAnalyse la situation !
+Dialogue: 0,0:20:14.65,0:20:16.40,Italique,NAGI/I,0000,0000,0000,,Pour que je marque un but…
+Dialogue: 0,0:20:19.03,0:20:21.86,Italique,NAGI/I,0000,0000,0000,,tu dois changer le futur\Nmaintenant !
+Dialogue: 0,0:20:24.41,0:20:25.87,Italique,NAGI/I,0000,0000,0000,,Un une-deux derrière Rin !
+Dialogue: 0,0:20:26.20,0:20:27.33,Default,NAGI/I,0000,0000,0000,,C’est nickel.
+Dialogue: 0,0:20:28.03,0:20:29.29,Italique,NAGI/I,0000,0000,0000,,Non, je rêve…
+Dialogue: 0,0:20:29.70,0:20:33.37,Italique,NAGI/I,0000,0000,0000,,Il a cramé le caviar d’Isagi\Net il a réagi au quart de tour ?
+Dialogue: 0,0:20:33.96,0:20:35.33,Italique,NAGI/I,0000,0000,0000,,Dans ce cas,
+Dialogue: 0,0:20:35.67,0:20:36.50,Italique,NAGI/I,0000,0000,0000,,une frappe…
+Dialogue: 0,0:20:38.36,0:20:39.84,Italique,NAGI/I,0000,0000,0000,,qui cache un amorti.
+Dialogue: 0,0:20:40.26,0:20:41.21,Italique,NAGI/I,0000,0000,0000,,C’est ma feinte…
+Dialogue: 0,0:20:43.47,0:20:45.62,Italique,NAGI/I,0000,0000,0000,,de reprise de volée en deux étapes !
+Dialogue: 0,0:20:50.01,0:20:51.60,Default,ISAGI,0000,0000,0000,,T’es un dieu du foot ?
+Dialogue: 0,0:20:53.10,0:20:55.06,Italique,NAGI/I,0000,0000,0000,,Décidément, avec Isagi,
+Dialogue: 0,0:20:55.35,0:20:57.81,Italique,NAGI/I,0000,0000,0000,,mon évolution n’aura pas de limite.
+Dialogue: 0,0:20:59.11,0:21:00.23,Italique,NAGI/I,0000,0000,0000,,Désolé, Reo.
+Dialogue: 0,0:21:00.69,0:21:03.19,Italique,NAGI/I,0000,0000,0000,,Maintenant que j’ai goûté\Nà cette euphorie,
+Dialogue: 0,0:21:03.57,0:21:05.20,Italique,NAGI/I,0000,0000,0000,,je peux plus m’arrêter.
+Dialogue: 0,0:21:06.07,0:21:07.99,Default,TOKIMITSU,0000,0000,0000,,Il nous a inventé quoi, là ?
+Dialogue: 0,0:21:08.12,0:21:10.08,Default,ARYU,0000,0000,0000,,C’était méga-sty’.
+Dialogue: 0,0:21:11.20,0:21:13.08,Default,BACHIRA,0000,0000,0000,,Tu t’es fait avoir, Rin.
+Dialogue: 0,0:21:13.83,0:21:15.67,Default,BACHIRA,0000,0000,0000,,Ça t’emballe toujours pas ?
+Dialogue: 0,0:21:18.58,0:21:20.96,Default,RIN,0000,0000,0000,,La ferme, le nain à la frange.
+Dialogue: 0,0:21:23.13,0:21:26.55,Default,RIN,0000,0000,0000,,Moi aussi,\Nje m’énerve quand on me cherche.
+Dialogue: 0,0:22:51.89,0:22:54.89,Default,Crédits,0000,0000,0000,,{\an8}Traduction, adaptation : Benjamin Moro
+Dialogue: 0,0:22:55.01,0:22:58.02,Default,Crédits,0000,0000,0000,,{\an8}Repérage : Michaël Seguin
+Dialogue: 0,0:22:58.60,0:23:02.02,Italique,NAGI,0000,0000,0000,,Blue Lock :\NLa troisième mi-temps…
+Dialogue: 0,0:22:59.14,0:23:02.02,Default,Sign,0000,0000,0000,,{\fad(155,1)\fnArial Black\bord0\shad0\c&HB85415&\fs33.333\t(1740,1865,\fscx115)\t(1865,2115,\fscx100)\pos(323.333,271.267)\clip(149,237,191,271)\t(26,610,\clip(129,237,538,271))}LA {\c&HE0851F&}TROI{\c&HB85415&}SIÈ{\c&HE0851F&}ME {\c&HB85415&}MI-{\c&HE0851F&}TEM{\c&HB85415&}PS !
+Dialogue: 0,0:23:00.90,0:23:00.94,Default,Sign,0000,0000,0000,,{\p1\bord0\shad0\blur0.3\fscy15\fscx267\pos(324,115)\c&HF44823&}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 0,0:23:00.90,0:23:00.94,Default,Sign,0000,0000,0000,,{\an1\fsp7\fs16\bord0\shad0\b1\blur0.3\fnArial\pos(260.667,116)}Blue Lock
+Dialogue: 0,0:23:00.94,0:23:00.98,Default,Sign,0000,0000,0000,,{\p1\bord0\shad0\blur0.3\fscy15\fscx267\pos(324,137)\c&HF44823&}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 0,0:23:00.94,0:23:00.98,Default,Sign,0000,0000,0000,,{\an1\fsp7\fs16\bord0\shad0\b1\blur0.3\fnArial\pos(260.667,138)}Blue Lock
+Dialogue: 0,0:23:00.98,0:23:01.02,Default,Sign,0000,0000,0000,,{\p1\bord0\shad0\blur0.3\fscy15\fscx267\pos(324,145)\c&HF44823&}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 0,0:23:00.98,0:23:01.02,Default,Sign,0000,0000,0000,,{\an1\fsp7\fs16\bord0\shad0\b1\blur0.3\fnArial\pos(260.667,146)}Blue Lock
+Dialogue: 0,0:23:01.02,0:23:01.06,Default,Sign,0000,0000,0000,,{\p1\bord0\shad0\blur0.3\fscy15\fscx267\pos(324,147)\c&HF44823&}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 0,0:23:01.02,0:23:01.06,Default,Sign,0000,0000,0000,,{\an1\fsp7\fs16\bord0\shad0\b1\blur0.3\fnArial\pos(260.667,148)}Blue Lock
+Dialogue: 0,0:23:01.06,0:23:01.27,Default,Sign,0000,0000,0000,,{\p1\bord0\shad0\blur0.3\fscy15\fscx267\move(324,150,324,134)\c&HF44823&}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 0,0:23:01.06,0:23:01.27,Default,Sign,0000,0000,0000,,{\an1\fsp7\fs16\bord0\shad0\b1\blur0.3\fnArial\move(260.667,151,260.667,135)}Blue Lock
+Dialogue: 0,0:23:01.27,0:23:02.02,Default,Sign,0000,0000,0000,,{\p1\bord0\shad0\blur0.3\fscy15\fscx267\pos(324,134)\c&HF44823&}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 0,0:23:01.27,0:23:02.02,Default,Sign,0000,0000,0000,,{\an1\fsp7\fs16\bord0\shad0\b1\blur0.3\fnArial\pos(260.667,135)}Blue Lock
+Dialogue: 0,0:23:02.02,0:23:03.46,Default,SIGN,0000,0000,0000,,{\fad(1,540)\fnArial\shad0\blur0.3\fs20\bord1.6\fsp1\c&H1B1B1B&\3c&HFFFFFF&\frz345.2\move(469.091,162.182,469.091,177.182)}PIQUE\NDU NEZ
+Dialogue: 0,0:23:02.06,0:23:04.98,Default,Sign,0000,0000,0000,,{\an1\fad(480,438)\bord2.2\shad0\b1\i1\fs24.3\fscx95\blur1\c&HA44C0F&\3c&HFEFDF9&\fnImpact\pos(103.067,308)}LA VIE DE NAGI À L’ÉCOLE
+Dialogue: 0,0:23:02.11,0:23:03.98,Default,TEACHER,0000,0000,0000,,{\pos(460.8,335)}Et voilà comment faire.
+Dialogue: 0,0:23:02.56,0:23:07.03,Default,SIGN,0000,0000,0000,,{\fad(500,1)\fnImpact\shad0\fsp1\bord5\fscx85\blur0.3\fs38\3c&H262626&\c&H262626&\pos(123.636,171.636)}SEISHIRÔ NAGI
+Dialogue: 0,0:23:02.56,0:23:07.03,Default,SIGN,0000,0000,0000,,{\fad(500,1)\fnImpact\shad0\fsp1\bord2.5\fscx85\blur0.3\fs38\3c&HFEFBFD&\c&H262626&\pos(123.636,171.636)}SEISHIRÔ NAGI
+Dialogue: 0,0:23:05.15,0:23:07.03,Default,SIGN,0000,0000,0000,,{\fad(440,1)\fnArial\shad0\blur0.3\fs20\bord1.6\fsp1\c&H1B1B1B&\3c&HFFFFFF&\frz345.2\move(469.091,162.182,469.091,177.182)\t(1250,1860,\alpha&AF)}PIQUE\NDU NEZ
+Dialogue: 0,0:23:05.53,0:23:09.03,Default,TEACHER,0000,0000,0000,,Cette partie est importante,\Nalors écoutez bien.
+Dialogue: 0,0:23:07.07,0:23:09.03,Default,SIGN,0000,0000,0000,,{\fad(470,1)\fnImpact\shad0\fsp1\bord5\fscx85\blur0.3\fs38\3c&HEA5289&\c&HEA5289&\pos(166.545,171.636)}REO MIKAGE
+Dialogue: 0,0:23:07.07,0:23:09.03,Default,SIGN,0000,0000,0000,,{\fad(470,1)\fnImpact\shad0\fsp1\bord2.5\fscx85\blur0.3\fs38\3c&HFEFBFD&\c&HEA5289&\pos(166.545,171.636)}REO MIKAGE
+Dialogue: 0,0:23:09.03,0:23:09.38,Default,SIGN,0000,0000,0000,,{\bord0\shad0\blur0.3\fs11\c&H3D393A&\pos(535.909,279.273)}NGH
+Dialogue: 0,0:23:09.03,0:23:11.26,Default,SIGN,0000,0000,0000,,{\fnImpact\fs46\shad1.5\an9\4a&H00&\blur0.3\bord1.5\c&HF3F3F3&\move(580.545,14.545,580.545,2.545)}1RE {\t(2190,2191,\alpha&HFF&)}HEU{\t(2148,2149,\alpha&HFF&)}RE
+Dialogue: 0,0:23:10.61,0:23:11.03,Default,SIGN,0000,0000,0000,,{\fad(150,1)\bord0\shad0\blur0.3\fs13\c&H3D393A&\frz343\t(\fscx105\fscy105)\move(504,252,505,248)}S’ASSOUPIT
+Dialogue: 0,0:23:11.16,0:23:13.16,Default,SIGN,0000,0000,0000,,{\fad(350,1)\bord1\shad0\blur0.3\fs13\c&H3D393A&\t(\fscx105\fscy105)\3c&HFFFFFF&\frz359.4\move(504,244.364,504,238.364)}ZZZ
+Dialogue: 0,0:23:11.16,0:23:13.28,Default,SIGN,0000,0000,0000,,{\fnImpact\fs46\shad1.5\an9\4a&H00&\blur0.3\bord1.5\alpha&HFF&\c&HF3F3F3&\move(580.545,11.545,580.545,-1.545)\t(101,102,\alpha&H00&)\t(2104,2105,\alpha&HFF&)}2E {\t(60,61,\alpha&H00&)\t(2061,2062,\alpha&HFF&)}HEU{\alpha&H00&)\t(2018,2019,\alpha&HFF&)}RE
+Dialogue: 0,0:23:13.16,0:23:15.03,Default,SIGN,0000,0000,0000,,{\fnImpact\fs46\shad1.5\an9\4a&H00&\blur0.3\bord1.5\alpha&HFF&\c&HF3F3F3&\t(101,102,\alpha&H00&)\move(580.545,5.818,580.545,-5.272)}3E {\t(60,61,\alpha&H00&)}HEU{\alpha&H00&)}RE
+Dialogue: 0,0:23:13.16,0:23:15.03,Default,SIGN,0000,0000,0000,,{\bord1\shad0\blur0.3\fs13\c&H3D393A&\t(\fscx105\fscy105)\3c&HFFFFFF&\frz359.4\move(504,240.364,504,234.364)}ZZZZZZ
+Dialogue: 0,0:23:15.24,0:23:18.83,Default,REO/I,0000,0000,0000,,Hein ? Ça fait un moment qu’il dort.\NIl est pas mort, hein ?
+Dialogue: 0,0:23:17.87,0:23:18.83,Default,SIGN,0000,0000,0000,,{\fad(350,1)\b1\shad0\fs22\bord2\3c&HBF6D7A&\c&HFCECEF&\move(158,126,160,119)\frz339.4}FFT
+Dialogue: 0,0:23:19.41,0:23:19.75,Default,SIGN,0000,0000,0000,,{\shad0\bord4\3c&HFFFFFF&\fs18\t(\fs24)\c&H000000&\move(195,215,210,198)\frz340.6}TAC
+Dialogue: 0,0:23:19.75,0:23:21.87,Default,NAGI,0000,0000,0000,,Euh… Les particules Minovsky.
+Dialogue: 0,0:23:20.02,0:23:20.16,Default,SIGN,0000,0000,0000,,{\fs18\fscx90\bord0\shad0\blur0.3\c&H191D1D&\pos(581.818,137.454)\frz10.75}RATAC
+Dialogue: 0,0:23:20.16,0:23:20.33,Default,SIGN,0000,0000,0000,,{\fs18\fscx90\bord0\shad0\blur0.3\c&H191D1D&\frz26.29\pos(578.181,109.817)}RATAC
+Dialogue: 0,0:23:20.33,0:23:20.50,Default,SIGN,0000,0000,0000,,{\fs18\fscx90\bord0\shad0\blur0.3\c&H191D1D&\frz3.445\pos(578.909,150.545)}RATAC
+Dialogue: 0,0:23:20.50,0:23:20.71,Default,SIGN,0000,0000,0000,,{\fs18\fscx90\bord0\shad0\blur0.3\c&H191D1D&\frz26.29\pos(578.181,109.817)}RATAC
+Dialogue: 0,0:23:21.98,0:23:24.09,Default,TEACHER,0000,0000,0000,,Bon sang, tu es cours d’histoire !
+Dialogue: 0,0:23:24.21,0:23:26.38,Default,TEACHER,0000,0000,0000,,Tu vas redoubler, si ça continue !
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx80\shad0\bord0\move(305,82,305,67)\c&H4F504E&}RÉSULTAT DES\NCONTRÔLES D’HISTOIRE
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\bord0\c&H4F504E&\move(265.455,154.182,265.455,139.182)}REO MIKAGE
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\fs20\bord0\c&H4F504E&\move(519.273,156.364,519.273,141.364)}/100
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\fs10\bord0\c&H4F504E&\move(100.364,160.727,100.364,145.727)}ER
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\fs10\bord0\c&H4F504E&\move(100,238.545,100,223.545)}E
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\fs10\bord0\c&H4F504E&\move(100,313.455,100,298.455)}E
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\fs20\bord0\c&H4F504E&\move(521.455,234.909,521.455,219.909)}/100
+Dialogue: 0,0:23:26.92,0:23:29.59,Default,SIGN,0000,0000,0000,,{\fnArial\fscx85\shad0\bord0\c&H4F504E&\move(265.455,232,265.455,217)}SEISHIRÔ NAGI
+Dialogue: 0,0:23:28.26,0:23:29.59,Default,NAGI,0000,0000,0000,,Trop fort, Reo.
+Dialogue: 0,0:23:29.92,0:23:31.01,Default,NAGI,0000,0000,0000,,T’as fini premier.
+Dialogue: 0,0:23:31.26,0:23:33.72,Default,REO,0000,0000,0000,,C’est toi, le plus impressionnant.
+
